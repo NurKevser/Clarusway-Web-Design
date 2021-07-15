@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background: rgb(53,66,74);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.7rem;
+    border-bottom: 4px solid #a054a0; 
+}
+
+.header{
+    color: #ebf3f3;
+    padding-bottom: 20px;
+}
+.header span{
+    color: #a054a0 ;
+}
+
+.pages{
+    display: inline-flex;
+}
+.pages li {
+    list-style: none;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+
+
+.pages li a{
+    text-decoration: none;
+    color: #ebf3f3;
+    padding-left: 30px;
+}
+#home a{
+    color: #a054a0;
+}
+.section-one{
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/showcase.jpg);
+    background-position:center center;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: #ebf3f3;
+}
+.section-two{
+    background:rgb(53,66,74);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: #ebf3f3;
+}
+.subscribe input{
+    width: 13rem;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+}
+.subscribe button{
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    background-color: rgb(232, 73, 29);
+    color: #ebf3f3;
+    border: none;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}   
+.logos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer{
+    background: rgb(53,66,74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.1rem;
+    color: #ebf3f3;
+}
+
+
