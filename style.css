@@ -73,6 +73,7 @@ nav{
     background-color: rgb(232, 73, 29);
     color: #ebf3f3;
     border: none;
+    cursor: pointer;
 }
 .logos{
     display: flex;

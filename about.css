@@ -66,6 +66,7 @@ nav {
   display: flex;
   height: 40rem;
   width: 100%;
+  font-size: 14px;
 }
 .box-1 {
   padding: 3rem;
@@ -77,19 +78,21 @@ nav {
   padding: 1rem;
 }
 .box-2 {
-  padding: 1.5rem;
+  padding: 1.3rem;
   margin: 0.8rem;
   background: rgb(53, 66, 74);
   height: 13rem;
   margin-top: 2.3rem;
   color: #ebf3f3;
 }
-footer{
-    background: rgb(53,66,74);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1.1rem;
-    color: #ebf3f3;
+footer {
+  background: rgb(53, 66, 74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.1rem;
+  color: #ebf3f3;
+
+  font-size: 14px;
 }
